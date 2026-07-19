@@ -1,4 +1,4 @@
-class Printinorder {
+public class Printinorder {
     // 0 permits means any thread calling acquire() will block immediately
     private final Semaphore sem1 = new Semaphore(0);
     private final Semaphore sem2 = new Semaphore(0);

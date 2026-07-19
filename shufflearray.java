@@ -1,4 +1,4 @@
-class Shufflearray {
+public class Shufflearray {
     public int[] shuffle(int[] nums, int n) {
         int[] result = new int[2 * n];
         for (int i = 0; i < n; i++) {

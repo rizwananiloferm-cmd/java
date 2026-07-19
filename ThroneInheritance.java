@@ -1,4 +1,4 @@
-class ThroneInheritance {
+public class ThroneInheritance {
     // Map to store a parent and their children in order of birth
     private Map<String, List<String>> familyTree;
     // Set to keep track of deceased members

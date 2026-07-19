@@ -1,4 +1,4 @@
-class StackUsingQueues {
+public class StackUsingQueues {
    private Queue<Integer> queue;
 
     public MyStack() {

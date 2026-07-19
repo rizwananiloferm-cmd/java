@@ -1,4 +1,4 @@
-class Ipaddress {
+public class Ipaddress {
     public String defangIPaddr(String address) {
         StringBuilder result = new StringBuilder();
         

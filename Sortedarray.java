@@ -1,4 +1,4 @@
-class Sortedarray {
+public class Sortedarray {
     public int[] searchRange(int[] nums, int target) {
         int[] result = new int[]{-1, -1};
         result[0] = findBound(nums, target, true);

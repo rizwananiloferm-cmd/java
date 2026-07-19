@@ -1,4 +1,4 @@
-class FizzBuzzThreaded {
+public class FizzBuzzThreaded {
     private int n;
     private int current = 1;
     private Semaphore semNum = new Semaphore(1);

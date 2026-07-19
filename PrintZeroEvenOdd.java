@@ -1,4 +1,4 @@
-class PrintZeroEvenOdd {
+public class PrintZeroEvenOdd {
     private int n;
     private Semaphore zeroSem = new Semaphore(1);
     private Semaphore evenSem = new Semaphore(0);

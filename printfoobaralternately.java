@@ -1,4 +1,4 @@
-class printfoobaralternately {
+public class printfoobaralternately {
     private final int n;
     private final Semaphore fooSem = new Semaphore(1); // Starts allowed
     private final Semaphore barSem = new Semaphore(0); // Starts blocked

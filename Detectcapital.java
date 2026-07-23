@@ -15,4 +15,6 @@ public class Detectcapital {
         if (capCount == 1 && Character.isUpperCase(word.charAt(0))) return true;
 
         return false;
+    }
+}
     
